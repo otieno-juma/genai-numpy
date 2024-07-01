@@ -71,4 +71,7 @@ git add .
 git status
 git commit
 git push origin my-branch-name
+git commit --amend
+git rebase -i main
+git push -f origin my-branch-name
 ```
